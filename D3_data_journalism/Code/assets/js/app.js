@@ -34,7 +34,7 @@ var chartGroup = svg.append("g")
 // Retrieve data from the CSV file and execute everything below  
   var dataset = d3.csv("assets/data/data.csv")
   dataset.then(function(healthData){
-  // parse data
+  // parse data in the form in float format
     healthData.forEach(function(data) {
     data.poverty = +data.poverty;
     data.age = +data.age;
