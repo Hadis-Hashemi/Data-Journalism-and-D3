@@ -1,3 +1,4 @@
+//define Width, highth and margin
 var svgWidth = 960;
 var svgHeight = 500;
 
